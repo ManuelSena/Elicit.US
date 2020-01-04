@@ -1,0 +1,55 @@
+{
+  "name": "elicit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ManuelSena/Elicit.US.git"
+  },
+  "author": "Manuel Sena",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ManuelSena/Elicit.US/issues"
+  },
+  "homepage": "https://github.com/ManuelSena/Elicit.US#readme",
+  "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/react": "^16.9.17",
+    "@types/react-dom": "^16.9.4",
+    "@types/react-router": "^3.0.15",
+    "@types/redux": "^3.6.0",
+    "@types/toastr": "^2.1.37",
+    "awesome-typescript-loader": "^3.4.1",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.6.1",
+    "bootstrap": "^3.3.7",
+    "css-loader": "^3.4.1",
+    "file-loader": "^1.1.8",
+    "html-webpack-plugin": "^2.30.1",
+    "popper.js": "^1.16.0",
+    "redux": "^4.0.5",
+    "style-loader": "^0.20.2",
+    "ts-loader": "^4.2.0",
+    "typescript": "^3.7.4",
+    "url-loader": "^0.6.2",
+    "webpack": "^3.11.0"
+  },
+  "dependencies": {
+    "@types/jquery": "^3.3.31",
+    "@types/react-redux": "^5.0.21",
+    "axios": "^0.19.0",
+    "jquery": "^3.4.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-router": "^3.2.5",
+    "react-router-dom": "^5.1.2",
+    "toastr": "^2.1.4"
+  },
+  "optionalDependencies": {
+    "fsevents": "^1.2.11"
+  }
+}
