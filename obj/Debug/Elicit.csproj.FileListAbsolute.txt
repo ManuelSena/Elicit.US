@@ -24,6 +24,7 @@ C:\Elicit\Elicit\bin\System.Web.Webpages.Deployment.xml
 C:\Elicit\Elicit\bin\System.Web.Webpages.Razor.xml
 C:\Elicit\Elicit\bin\System.Web.Helpers.xml
 C:\Elicit\Elicit\bin\System.Web.Mvc.xml
+C:\Elicit\Elicit\obj\Debug\Elicit.csprojResolveAssemblyReference.cache
 C:\Elicit\Elicit\obj\Debug\Elicit.csproj.CoreCompileInputs.cache
 C:\Elicit\Elicit\obj\Debug\Elicit.csproj.CopyComplete
 C:\Elicit\Elicit\obj\Debug\Elicit.dll
