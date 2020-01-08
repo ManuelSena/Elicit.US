@@ -5,6 +5,6 @@
   "theme_color": "#282c34",
   "description": "Elicit Inc",
 
-  "start_url": "./index.html",
+  "start_url": "https://github.com/ManuelSena/Elicit.US",
   "display":"standalone"
 }
