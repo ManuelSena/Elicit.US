@@ -1,0 +1,10 @@
+{
+  "name": "elicit",
+  "short_name": "Elicit",
+  "background_color": "#000000",
+  "theme_color": "#282c34",
+  "description": "Elicit Inc",
+
+  "start_url": "./index.html",
+  "display":"standalone"
+}
