@@ -38,7 +38,11 @@ module.exports = {
     },
     module: {
         rules: [
-            {
+            
+                {
+                test: /\.html$/,
+                loader: 'html-loader'
+            }, {
                 test: /\.tsx$/,
                 exclude: /node_modules/,
                 loader: "awesome-typescript-loader",
