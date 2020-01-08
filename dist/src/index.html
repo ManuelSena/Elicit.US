@@ -1,0 +1,159 @@
+Html Webpack Plugin:
+<pre>
+  Error: Child compilation failed:
+  Entry module not found: Error: Can't resolve 'C:\Elicit\Elicit\src\src\index.h  tml' in 'C:\Elicit\Elicit\src':
+  Error: Can't resolve 'C:\Elicit\Elicit\src\src\index.html' in 'C:\Elicit\Elici  t\src'
+  
+  - compiler.js:76 
+    [Elicit]/[html-webpack-plugin]/lib/compiler.js:76:16
+  
+  - Compiler.js:300 compile
+    [Elicit]/[webpack]/lib/Compiler.js:300:11
+  
+  - Compiler.js:510 applyPluginsAsync.err
+    [Elicit]/[webpack]/lib/Compiler.js:510:14
+  
+  - Tapable.js:202 next
+    [Elicit]/[webpack]/[tapable]/lib/Tapable.js:202:11
+  
+  - CachePlugin.js:78 Compiler.<anonymous>
+    [Elicit]/[webpack]/lib/CachePlugin.js:78:5
+  
+  - Tapable.js:206 Compiler.applyPluginsAsyncSeries
+    [Elicit]/[webpack]/[tapable]/lib/Tapable.js:206:13
+  
+  - Compiler.js:507 compilation.seal.err
+    [Elicit]/[webpack]/lib/Compiler.js:507:11
+  
+  - Tapable.js:195 Compilation.applyPluginsAsyncSeries
+    [Elicit]/[webpack]/[tapable]/lib/Tapable.js:195:46
+  
+  - Compilation.js:677 applyPluginsAsync.err
+    [Elicit]/[webpack]/lib/Compilation.js:677:19
+  
+  - Tapable.js:195 Compilation.applyPluginsAsyncSeries
+    [Elicit]/[webpack]/[tapable]/lib/Tapable.js:195:46
+  
+  - Compilation.js:668 applyPluginsAsync.err
+    [Elicit]/[webpack]/lib/Compilation.js:668:11
+  
+  - Tapable.js:195 Compilation.applyPluginsAsyncSeries
+    [Elicit]/[webpack]/[tapable]/lib/Tapable.js:195:46
+  
+  - Compilation.js:663 applyPluginsAsync.err
+    [Elicit]/[webpack]/lib/Compilation.js:663:10
+  
+  - Tapable.js:195 Compilation.applyPluginsAsyncSeries
+    [Elicit]/[webpack]/[tapable]/lib/Tapable.js:195:46
+  
+  - Compilation.js:659 applyPluginsAsyncSeries
+    [Elicit]/[webpack]/lib/Compilation.js:659:9
+  
+  - Tapable.js:195 Compilation.applyPluginsAsyncSeries
+    [Elicit]/[webpack]/[tapable]/lib/Tapable.js:195:46
+  
+  - Compilation.js:602 Compilation.seal
+    [Elicit]/[webpack]/lib/Compilation.js:602:8
+  
+  - Compiler.js:504 applyPluginsParallel.err
+    [Elicit]/[webpack]/lib/Compiler.js:504:17
+  
+  - Tapable.js:289 
+    [Elicit]/[webpack]/[tapable]/lib/Tapable.js:289:11
+  
+  - Compilation.js:505 _addModuleChain
+    [Elicit]/[webpack]/lib/Compilation.js:505:11
+  
+  - Compilation.js:388 errorAndCallback.bail
+    [Elicit]/[webpack]/lib/Compilation.js:388:4
+  
+  - Compilation.js:411 moduleFactory.create
+    [Elicit]/[webpack]/lib/Compilation.js:411:13
+  
+  - NormalModuleFactory.js:237 factory
+    [Elicit]/[webpack]/lib/NormalModuleFactory.js:237:20
+  
+  - NormalModuleFactory.js:60 resolver
+    [Elicit]/[webpack]/lib/NormalModuleFactory.js:60:20
+  
+  - NormalModuleFactory.js:127 asyncLib.parallel
+    [Elicit]/[webpack]/lib/NormalModuleFactory.js:127:20
+  
+  - async.js:3888 
+    [Elicit]/[async]/dist/async.js:3888:9
+  
+  - async.js:473 
+    [Elicit]/[async]/dist/async.js:473:16
+  
+  - async.js:1062 iteratorCallback
+    [Elicit]/[async]/dist/async.js:1062:13
+  
+  - async.js:969 
+    [Elicit]/[async]/dist/async.js:969:16
+  
+  - async.js:3885 
+    [Elicit]/[async]/dist/async.js:3885:13
+  
+  - From previous event:
+  
+  - compiler.js:69 Object.compileTemplate
+    [Elicit]/[html-webpack-plugin]/lib/compiler.js:69:10
+  
+  - index.js:47 Compiler.<anonymous>
+    [Elicit]/[html-webpack-plugin]/index.js:47:40
+  
+  - Tapable.js:293 Compiler.applyPluginsParallel
+    [Elicit]/[webpack]/[tapable]/lib/Tapable.js:293:14
+  
+  - Compiler.js:499 applyPluginsAsync.err
+    [Elicit]/[webpack]/lib/Compiler.js:499:9
+  
+  - Tapable.js:195 Compiler.applyPluginsAsyncSeries
+    [Elicit]/[webpack]/[tapable]/lib/Tapable.js:195:46
+  
+  - Compiler.js:492 Compiler.compile
+    [Elicit]/[webpack]/lib/Compiler.js:492:8
+  
+  - Compiler.js:279 readRecords.err
+    [Elicit]/[webpack]/lib/Compiler.js:279:11
+  
+  - Compiler.js:391 Compiler.readRecords
+    [Elicit]/[webpack]/lib/Compiler.js:391:11
+  
+  - Compiler.js:276 applyPluginsAsync.err
+    [Elicit]/[webpack]/lib/Compiler.js:276:10
+  
+  - Tapable.js:202 next
+    [Elicit]/[webpack]/[tapable]/lib/Tapable.js:202:11
+  
+  - CachePlugin.js:51 Compiler.compiler.plugin
+    [Elicit]/[webpack]/lib/CachePlugin.js:51:59
+  
+  - Tapable.js:206 Compiler.applyPluginsAsyncSeries
+    [Elicit]/[webpack]/[tapable]/lib/Tapable.js:206:13
+  
+  - Compiler.js:273 applyPluginsAsync.err
+    [Elicit]/[webpack]/lib/Compiler.js:273:9
+  
+  - Tapable.js:202 next
+    [Elicit]/[webpack]/[tapable]/lib/Tapable.js:202:11
+  
+  - NodeEnvironmentPlugin.js:21 Compiler.compiler.plugin
+    [Elicit]/[webpack]/lib/node/NodeEnvironmentPlugin.js:21:4
+  
+  - Tapable.js:206 Compiler.applyPluginsAsyncSeries
+    [Elicit]/[webpack]/[tapable]/lib/Tapable.js:206:13
+  
+  - Compiler.js:270 Compiler.run
+    [Elicit]/[webpack]/lib/Compiler.js:270:8
+  
+  - webpack.js:393 processOptions
+    [Elicit]/[webpack]/bin/webpack.js:393:13
+  
+  - webpack.js:397 yargs.parse
+    [Elicit]/[webpack]/bin/webpack.js:397:2
+  
+  - yargs.js:533 Object.Yargs.self.parse
+    [Elicit]/[webpack]/[yargs]/yargs.js:533:18
+  
+</pre><script type="text/javascript" src="../manifest.js?19907d3c4f54bb5c4cf5"></script><script type="text/javascript" src="../vendor.js?19907d3c4f54bb5c4cf5"></script><script type="text/javascript" src="../vendorStyles.js?19907d3c4f54bb5c4cf5"></script><script type="text/javascript" src="../appStyles.js?19907d3c4f54bb5c4cf5"></script>
