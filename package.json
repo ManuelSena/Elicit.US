@@ -30,7 +30,7 @@
     "awesome-typescript-loader": "^3.4.1",
     "babel-core": "^6.26.0",
     "babel-preset-env": "^1.6.1",
-    "bootstrap": "^3.3.7",
+    "bootstrap": "^4.4.1",
     "css-loader": "^0.28.9",
     "file-loader": "^1.1.8",
     "gh-pages": "^2.1.1",
