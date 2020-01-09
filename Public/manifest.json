@@ -1,10 +1,9 @@
 {
-  "name": "elicit",
-  "short_name": "Elicit",
-  "background_color": "#000000",
-  "theme_color": "#282c34",
-  "description": "Elicit Inc",
+  "short_name": "Elicit React App",
+  "name": "Elicit React Application",
 
-  "start_url": "https://github.com/ManuelSena/Elicit.US",
-  "display":"standalone"
+  "start_url": "./index.html",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
 }

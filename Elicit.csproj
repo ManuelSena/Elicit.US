@@ -105,12 +105,24 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="build\index.html" />
+    <Content Include="build\service-worker.js" />
+    <Content Include="build\static\js\main.928b5524.js" />
     <Content Include="Content\bootstrap-grid.css" />
     <Content Include="Content\bootstrap-grid.min.css" />
     <Content Include="Content\bootstrap-reboot.css" />
     <Content Include="Content\bootstrap-reboot.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="dist\89889688147bd7575d6327160d64e760.svg" />
+    <Content Include="dist\app.js" />
+    <Content Include="dist\appStyles.js" />
+    <Content Include="dist\commons.js" />
+    <Content Include="dist\index.html" />
+    <Content Include="dist\manifest.js" />
+    <Content Include="dist\src\index.html" />
+    <Content Include="dist\vendor.js" />
+    <Content Include="dist\vendorStyles.js" />
     <Content Include="Global.asax" />
     <Content Include="Public\index.html" />
     <Content Include="Scripts\bootstrap.bundle.js" />
@@ -139,6 +151,12 @@
     <Content Include="CNAME" />
     <Content Include="README.md" />
     <Content Include=".babelrc" />
+    <Content Include="dist\448c34a56d699c29117adc64c43affeb.woff2" />
+    <Content Include="dist\e18bbf611f2a2e43afc071aa2f4e1512.ttf" />
+    <Content Include="dist\f4769f9bdb7466be65088239c12046d1.eot" />
+    <Content Include="dist\fa2772327f55d8198301fdb8bcfc8158.woff" />
+    <Content Include="build\asset-manifest.json" />
+    <Content Include="build\static\js\main.928b5524.js.map" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />
