@@ -1,12 +1,12 @@
 ﻿import * as React from "react";
-import { Router, Route, browserHistory, IndexRoute, hashHistory } from "react-router";
+import { Router, Route, browserHistory, IndexRoute } from "react-router";
 import { AboutPage, ContactPage, HomePage } from "./components";
 import { App } from "./app";
 
 export const AppRouter: React.StatelessComponent<{}> = () => {
     //browserHistory
     return (
-        <Router history={hashHistory}> 
+        <Router history={browserHistory}> 
             <Route path="/" component={App}>
                 <IndexRoute component={HomePage} />
                 <Route path="/home" component={HomePage} />

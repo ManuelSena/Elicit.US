@@ -3,7 +3,7 @@
 export const HomePage: React.StatelessComponent<{}> = () => {
     return (
         <div>
-            This is the Elict.Us Home page.
+            This is the elicit.US Home page.
         </div>
     );
 }

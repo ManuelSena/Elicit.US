@@ -1,9 +1,0 @@
-{
-  "short_name": "Elicit React App",
-  "name": "Elicit React Application",
-
-  "start_url": "./index.html",
-  "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
-}
