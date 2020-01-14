@@ -15,6 +15,7 @@
   "include": [
     "src/**/*"
   ],
+"include": ["./app/**/*"],
   "compileOnSave": false,
   "exclude": [
     "node_modules",
