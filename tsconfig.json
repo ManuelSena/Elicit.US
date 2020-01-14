@@ -13,9 +13,10 @@
     "suppressImplicitAnyIndexErrors": true
   },
   "include": [
-    "src/**/*"
+    "src/**/*",
+    "./app/**/*"
   ],
-"include": ["./app/**/*"],
+
   "compileOnSave": false,
   "exclude": [
     "node_modules",
