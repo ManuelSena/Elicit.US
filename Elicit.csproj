@@ -108,6 +108,7 @@
     <Content Include="build\index.html" />
     <Content Include="build\service-worker.js" />
     <Content Include="build\static\js\main.04e1946b.js" />
+    <Content Include="build\static\js\main.2d734106.js" />
     <Content Include="Content\bootstrap-grid.css" />
     <Content Include="Content\bootstrap-grid.min.css" />
     <Content Include="Content\bootstrap-reboot.css" />
@@ -124,7 +125,7 @@
     <Content Include="dist\vendor.js" />
     <Content Include="dist\vendorStyles.js" />
     <Content Include="Global.asax" />
-    <Content Include="index.html" />
+    <Content Include="src\index.html" />
     <Content Include="node_modules\react-scripts\template\public\favicon.ico" />
     <Content Include="node_modules\react-scripts\template\public\index.html" />
     <Content Include="node_modules\react-scripts\template\src\App.css" />
@@ -169,6 +170,7 @@
     <Content Include="node_modules\react-scripts\template\README.md" />
     <Content Include="build\static\js\main.04e1946b.js.map" />
     <Content Include="build\manifest.json" />
+    <Content Include="build\static\js\main.2d734106.js.map" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />
@@ -247,7 +249,6 @@
     <Content Include="Scripts\umd\popper.js" />
     <Content Include="Scripts\umd\popper.min.js" />
     <Content Include="src\css\site.css" />
-    <Content Include="src\index.html" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>

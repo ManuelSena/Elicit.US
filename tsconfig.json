@@ -12,6 +12,9 @@
     "noLib": false,
     "suppressImplicitAnyIndexErrors": true
   },
+  "include": [
+    "src/**/*"
+  ],
   "compileOnSave": false,
   "exclude": [
     "node_modules",
