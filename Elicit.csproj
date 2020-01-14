@@ -107,6 +107,7 @@
   <ItemGroup>
     <Content Include="build\index.html" />
     <Content Include="build\service-worker.js" />
+    <Content Include="build\static\js\main.04e1946b.js" />
     <Content Include="build\static\js\main.2d734106.js" />
     <Content Include="Content\bootstrap-grid.css" />
     <Content Include="Content\bootstrap-grid.min.css" />
@@ -167,8 +168,9 @@
     <Content Include="build\asset-manifest.json" />
     <Content Include="node_modules\react-scripts\template\gitignore" />
     <Content Include="node_modules\react-scripts\template\README.md" />
-    <Content Include="build\static\js\main.2d734106.js.map" />
+    <Content Include="build\static\js\main.04e1946b.js.map" />
     <Content Include="build\manifest.json" />
+    <Content Include="build\static\js\main.2d734106.js.map" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />
