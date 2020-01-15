@@ -82,8 +82,8 @@ module.exports = {
     devtool: "inline-source-map",
     plugins: [
         new HtmlWebpackPlugin({
-            filename: "./index.html",
-            template: "./index.html",
+            filename: "index.html",
+            template: "index.html",
             hash: true,
         }),
         new webpack.optimize.CommonsChunkPlugin({
