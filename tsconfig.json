@@ -16,7 +16,6 @@
     "src/**/*",
     "./app/**/*"
   ],
-
   "compileOnSave": false,
   "exclude": [
     "node_modules",

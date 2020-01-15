@@ -28,11 +28,16 @@ module.exports = {
         ]
     },
     output: {
+        publicPath: '/',
         path: path.join(basePath, "dist"),
         filename: "[name].js"
     },
     devServer: {
-        contentBase: ".",
+           historyApiFallback: {
+            index: '/index.html',
+        },
+        historyApiFallback: true,
+   
         host: "localhost",
         port: 9000
     },
