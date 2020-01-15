@@ -33,7 +33,9 @@ module.exports = {
         filename: "[name].js"
     },
     devServer: {
-        historyApiFallback: true,
+        historyApiFallback: {
+            index: '/'
+        },
         host: "localhost",
         port: 9000
     },
