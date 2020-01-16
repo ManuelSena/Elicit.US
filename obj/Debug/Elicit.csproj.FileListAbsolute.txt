@@ -28,3 +28,4 @@ C:\Elicit\Elicit\obj\Debug\Elicit.csproj.CoreCompileInputs.cache
 C:\Elicit\Elicit\obj\Debug\Elicit.csproj.CopyComplete
 C:\Elicit\Elicit\obj\Debug\Elicit.dll
 C:\Elicit\Elicit\obj\Debug\Elicit.pdb
+C:\Elicit\Elicit\obj\Debug\Elicit.csprojResolveAssemblyReference.cache
