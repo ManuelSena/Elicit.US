@@ -1,11 +1,11 @@
 ﻿import * as React from "react";
-import { Header } from "./components/Header/header";
+import { header } from "./components/header/header";
 
 export const App: React.StatelessComponent<{}> = (props) => {
 
     return (
         <div className="container">
-            <Header />
+            <header />
             {props.children}
         </div>
     );
