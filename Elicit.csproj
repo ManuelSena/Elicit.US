@@ -125,6 +125,7 @@
     <Content Include="dist\vendor.js" />
     <Content Include="dist\vendorStyles.js" />
     <Content Include="Global.asax" />
+    <Content Include="index.html" />
     <Content Include="src\index.html" />
     <Content Include="node_modules\react-scripts\template\public\favicon.ico" />
     <Content Include="node_modules\react-scripts\template\public\index.html" />
@@ -169,8 +170,8 @@
     <Content Include="node_modules\react-scripts\template\gitignore" />
     <Content Include="node_modules\react-scripts\template\README.md" />
     <Content Include="build\static\js\main.04e1946b.js.map" />
-    <Content Include="build\manifest.json" />
     <Content Include="build\static\js\main.2d734106.js.map" />
+    <None Include="build\manifest.json" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />
