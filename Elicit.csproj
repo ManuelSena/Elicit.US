@@ -126,6 +126,7 @@
     <Content Include="dist\vendorStyles.js" />
     <Content Include="Global.asax" />
     <Content Include="index.html" />
+    <Content Include="public\index.html" />
     <Content Include="src\index.html" />
     <Content Include="node_modules\react-scripts\template\public\favicon.ico" />
     <Content Include="node_modules\react-scripts\template\public\index.html" />
@@ -299,7 +300,6 @@
     <Folder Include="App_Data\" />
     <Folder Include="fonts\" />
     <Folder Include="Models\" />
-    <Folder Include="public\" />
     <Folder Include="src\Api\" />
   </ItemGroup>
   <ItemGroup>
