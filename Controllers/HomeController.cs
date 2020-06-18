@@ -12,5 +12,12 @@ namespace Elicit.Controllers
         {
             return View();
         }
+
+        public ActionResult Podcast()
+        {
+            ViewBag.Message = "Your podcast RSS feed.";
+
+            return View();
+        }
     }
 }
